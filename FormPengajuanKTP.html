@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FORM PENGAJUAN KTP | YUSMAN 13020200252</title>
+
+   <style>
+      body {
+         font-family: sans-serif;
+      }
+
+      table {
+         margin: auto;
+         width: 600px;
+         min-height: 650px;
+         align-content: center;
+         padding: 7px;
+         border: 2px solid black;
+      }
+
+      .header {
+         background-color: #e60b1a;
+         color: aliceblue;
+         text-align: center;
+      }
+
+
+
+      .btn {
+         text-align: center;
+         margin: 20px;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <body>
+
+
+      <!-- create form -->
+      <div id="form">
+         <form>
+            <table cellspacing="0" cellpadding="7">
+
+
+               <!-- Heading -->
+               <tr class="header">
+                  <td colspan="3"><Strong>FORM PENGAJUAN KTP</Strong> </td>
+               </tr>
+
+               <!-- Nomor Pendaftaran -->
+               <tr class="nomor-pendaftaran" colspan="3">
+                  <td><b>Nomor Pendaftaran</b></td>
+                  <td>
+                     <input size="2" type="id" maxlength="4">&nbsp;&nbsp;&nbsp;
+                     <input size="2" type="id" maxlength="4">&nbsp;&nbsp;&nbsp;
+                     <input size="2" type="id" maxlength="4">&nbsp;&nbsp;&nbsp;
+                     <input size="2" type="id" maxlength="4">&nbsp;&nbsp;&nbsp;
+                     <input size="2" type="id" maxlength="4">&nbsp;&nbsp;&nbsp;
+                  </td>
+               </tr>
+
+               <!-- Nama Lengkap -->
+               <tr>
+                  <td><b>Nama</b></td>
+                  <td><input type="text" size="45" placeholder="Nama Lengkap"></td>
+               </tr>
+
+               <!-- Alamat -->
+               <tr>
+                  <td><b>Alamat</b></td>
+                  <td><textarea name="textarea" placeholder="Alamat lengkap" cols="43" rows="3"></textarea></td>
+               </tr>
+
+               <!-- Provinsi -->
+               <tr>
+                  <td><b>Provinsi</b></td>
+                  <td>
+                     <select name="select">
+                        <option value="1">Sulawesi Selatan</option>
+                        <option value="2">Sulawesi Tenggara</option>
+                        <option value="3">Sulawesi Barat</option>
+                        <option value="4">Sulawesi Utara</option>
+                        <option value="5">Sulawesi Tengah</option>
+                        <option value="6">Sumatera Selatan</option>
+                        <option value="7">Bengkulu</option>
+                        <option value="8">Lampung</option>
+                        <option value="9">Kep. Bangka Belitung</option>
+                        <option value="10">Kepulauan Riau</option>
+                        <option value="11">Jakarta</option>
+                        <option value="12">Jawa Barat</option>
+                        <option value="13">Banten</option>
+                        <option value="14">Jawa Tengah</option>
+                        <option value="15">Yogyakarta</option>
+                        <option value="16">Jawa Timur</option>
+                        <option value="17">Kalimantan Barat</option>
+                        <option value="18">Kalimantan Tengah</option>
+                        <option value="19">Kalimantan Selatan</option>
+                        <option value="20">Kalimantan Timur</option>
+                        <option value="21">Kalimantan Utara</option>
+                        <option value="22">Bali</option>
+                        <option value="23">Nusa Tenggara Timur</option>
+                        <option value="24">Nusa Tenggara Barat</option>
+                        <option value="25">Riau</option>
+                        <option value="26">Jambi</option>
+                        <option value="27">Aceh</option>
+                        <option value="28">Sumatera Utara</option>
+                        <option value="29">Sumatera Barat</option>
+                        <option value="30">Gorontalo</option>
+                        <option value="31">Maluku</option>
+                        <option value="32">Maluku Utara</option>
+                        <option value="33">Papua</option>
+                        <option value="34">Papua Barat</option>
+                     </select>
+                     </select>
+                  </td>
+               </tr>
+
+               <!-- Kota & Kec -->
+               <tr>
+                  <td><b>Kota</b></td>
+                  <td>
+                     <input type="text" size="18" placeholder="Kota">
+                     <label><b>&emsp;Kec.&emsp;</b></label>
+                     <input type="text" size="10" placeholder="kecamatan">
+                  </td>
+
+                  <!-- Pekerjaan -->
+               <tr>
+                  <td><b>Pekerjaan</b></td>
+                  <td><input type="text" size="30" placeholder="Pekerjaan"></td>
+               </tr>
+               </tr>
+
+               <!-- Jenis kelamin -->
+               <tr>
+                  <td><b>Jenis kelamin</b></td>
+                  <td>
+                     <input type="radio" name="gender">
+                     <label for="Pria"> Pria</label>
+                     <input type="radio" name="gender">
+                     <label for="Wanita"> Wanita</label>
+                  </td>
+               </tr>
+
+               <!-- Tempat tanggal lahir -->
+               <tr>
+                  <td><b>Tempat/Tanggal Lahir</b></td>
+                  <td>
+                     <input type="text" size="20" placeholder="Tempat Lahir">
+                     <label>&emsp;</label>
+                     <input type="text" size="15" placeholder="dd/mm/yyyy">
+                  </td>
+               </tr>
+
+               <!-- Kelengkapan Berkas -->
+               <tr>
+                  <td rowspan="2"><b>Kelengkapan Berkas</b></td>
+                  <td>
+                     <input type="checkbox" /><label>FC KK</label>
+                     <input type="checkbox" /><label>Surat Pengantar</label>
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <input type="checkbox" /><label>Pas Foto</label>
+                     <input type="checkbox" /><label>Surat Domisili</label>
+                  </td>
+               </tr>
+
+               <!-- File Scan -->
+               <tr>
+                  <td><b>File Scan</b></td>
+                  <td><input type="file" /></td>
+               </tr>
+
+               <!-- Button -->
+               <tr class="btn">
+                  <td colspan="2">
+                     <button type="submit">Pengajuan</button>
+                     <button type="reset">Batal</button>
+                  </td>
+               </tr>
+            </table>
+         </form>
+      </div>
+
+
+   </body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FORM PENDAFTARAN OSIS | YUSMAN 13020200252</title>
+</head>
+
+<style>
+   body {
+      font-family: sans-serif;
+   }
+
+   table {
+      margin: auto;
+      width: 600px;
+      min-height: 650px;
+      align-content: center;
+      border: 0px solid black;
+      box-shadow: 0px 0px 6px 6px #a6a9bd;
+   }
+
+   .header {
+      background-color: #0b2ce6;
+      color: aliceblue;
+      text-align: center;
+   }
+
+   .btn {
+      text-align: center;
+   }
+</style>
+
+<body>
+
+
+   <!-- create form -->
+   <div id="form">
+      <form>
+         <table cellspacing="0" cellpadding="3">
+
+
+            <!-- Heading -->
+            <tr class="header">
+               <td colspan="2"><Strong>FORM PENDAFTARAN OSIS</Strong> </td>
+            </tr>
+
+
+            <!-- Nama Lengkap -->
+            <tr>
+               <td><b>Nama Lengkap</b></td>
+               <td><input type="text" size="35" placeholder="Nama Lengkap"></td>
+            </tr>
+
+            <!-- Nama panggilan -->
+            <tr>
+               <td><b>Nama Panggilan</b></td>
+               <td><input type="text" size="35" placeholder="Nama Panggilan"></td>
+            </tr>
+
+            <!-- Tempat tanggal lahir -->
+            <tr>
+               <td><b>Tempat Tanggal Lahir</b></td>
+               <td><input type="text" size="20" placeholder="dd/mm/yyyy"></td>
+            </tr>
+
+            <!-- Jenis kelamin -->
+            <tr>
+               <td><b>Jenis kelamin</b></td>
+               <td>
+                  <input type="radio" name="gender">
+                  <label for="Laki-Laki"> Laki-Laki</label>
+                  <input type="radio" name="gender">
+                  <label for="Perempuan"> Perempuan</label>
+               </td>
+            </tr>
+
+            <!-- Nomor telpon -->
+            <tr>
+               <td><b>Nomor Telepon</b></td>
+               <td><input type="text" size="35" placeholder="Telepon"></td>
+            </tr>
+
+            <!-- Jurusan -->
+            <tr>
+               <td><b>Jurusan</b></td>
+               <td>
+                  <input type="radio" name="jurusan">
+                  <label for="IPA"> IPA</label>
+                  <input type="radio" name="jurusan">
+                  <label for="IPS"> IPS</label>
+                  <input type="radio" name="jurusan">
+                  <label for="Bahasa"> BAHASA</label>
+               </td>
+            </tr>
+
+            <!-- agama -->
+            <tr>
+               <td><b>Agama</b></td>
+               <td>
+                  <select name="select">
+                     <option value="1">Islam</option>
+                     <option value="2">Protestan</option>
+                     <option value="3">Katolik</option>
+                     <option value="4">Hindu</option>
+                     <option value="5">Buddha</option>
+                     <option value="6">Khonghucu</option>
+                     <option value="7">Lainnya</option>
+                  </select>
+               </td>
+            </tr>
+
+            <!-- Hobi -->
+            <tr>
+               <td><b>Hobi</b></td>
+               <td>
+                  <input type="radio" name="hobi">
+                  <label for="Membaca-Buku">Membaca Buku</label>
+                  <input type="radio" name="hobi">
+                  <label for="Menulis">Menulis</label>
+                  <input type="radio" name="hobi">
+                  <label for="dll">dll</label>
+               </td>
+            </tr>
+
+            <!-- Alasan mendaftar -->
+            <tr>
+               <td><b>Alasan/Motivasi untuk mendaftar</b></td>
+               <td><textarea name="textarea" cols="40" rows="10"></textarea></td>
+            </tr>
+
+            <!-- Foto -->
+            <tr>
+               <td><b>Foto 3X4</b></td>
+               <td><input type="file" /></td>
+            </tr>
+
+
+            <!-- Button -->
+            <tr class="btn">
+               <td colspan="2">
+                  <button type="submit">Daftar</button>
+                  <button type="reset">Reset</button>
+               </td>
+            </tr>
+         </table>
+      </form>
+   </div>
+
+
+</body>
+
+</html>
